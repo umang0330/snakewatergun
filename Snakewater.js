@@ -83,20 +83,8 @@ function run() {
             parent.appendChild(child)
 
         }
-        if (img == "snake.jpg" && img2 == "water.jpg") {
-            var parent = document.getElementById("score")
-            var child = document.createElement("li")
-            child.innerText = "Player 1 wins";
-            parent.appendChild(child)
-
-        }
-        if (img == "water.jpg" && img2 == "snake.jpg") {
-            var parent = document.getElementById("score")
-            var child = document.createElement("li")
-            child.innerText = "Player 2 wins";
-            parent.appendChild(child)
-
-        }
+     
+    
 
         if (img == "water.jpg" && img2 == "gun.jpg") {
             var parent = document.getElementById("score")
