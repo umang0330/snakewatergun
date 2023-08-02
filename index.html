@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Sanke-Water-Gun</title>
+    <link rel="stylesheet" href="Snakewater.css">
+    <script src="Snakewater.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12 ">
+                <h1 class="display-3 fw-bold ">SNAKE WATER GUN GAME</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4   h-100 " id="box1">
+                <img src="images/white.png" class="mw-100" alt="" srcset="" id="imgb1">
+            </div>
+            <div class="col-4  offset-4   h-100 " id="box2">
+                <img src="images/white.png" class="mw-100 " alt="" srcset="" id="imgb2">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-4 text-center fw-bold fs-3 " id="">
+                User
+                <select class="form-select fw-bold" id="sgw" aria-label="Default select example">
+                    <option selected value="none">Select</option>
+                    <option value="snake">snake</option>
+                    <option value="water">water</option>
+                    <option value="gun">gun</option>
+                   </select>
+            </div>
+            <div class="col-4 offset-4 text-center fw-bold fs-3 " id="">
+                Computer
+            </div>
+        </div>
+
+        <div class="row mt-5">
+
+            <button type="button" class="btn btn-success  fw-bold fs-3" id="button" onclick="run()">Play</button>
+        </div>
+
+        <div class="row mt-2">
+
+            <button type="button" class="btn btn-danger fw-bold fs-3" id="button2" onclick="stop()">Replay</button>
+
+        </div>
+        <div class="container mt-4" id="scoreContainer">
+
+
+            <div class="row mt-3">
+                <div class="col-12 fs-md-4 fs-5 fw-bold">Scoreboard:
+                    <ol id="score"></ol>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 text-center fs-1 text-black">Developed By Vector</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

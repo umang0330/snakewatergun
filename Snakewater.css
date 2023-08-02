@@ -1,0 +1,21 @@
+#body {
+    background-color: aqua;
+}
+
+#box1 {}
+
+#box2 {}
+
+#button {
+    border-radius: 30px;
+}
+
+#button2 {
+    border-radius: 30px;
+}
+
+#scoreContainer {
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 10px;
+}
